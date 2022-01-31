@@ -1,0 +1,324 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*---------------------------- ESTILOS HEADER --------------------------------*/
+
+
+header {
+    background-color: #EAC926;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-head {
+    width: 50%;
+    text-align: center;
+}
+
+.nav div .elemento {
+    width: 50%;
+    
+}
+
+
+.buscador input {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+
+
+.boton {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.grid {
+    display: none;
+    
+}
+
+
+.nav-buttom {
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.fa-bars {
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 20%;
+
+}
+
+.cuotas {
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+/*---------------------------- ESTILOS MAIN --------------------------------*/
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    border: #ebebeb;
+    
+}
+
+
+
+section {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+section .caja {
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    width: 100%;
+}
+
+.caja img {
+    width: 100%;
+}
+
+.caja.informacion {
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.renglon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+    flex-grow: 3;
+
+}
+
+.descuento {
+    font-size: 16px;
+    flex-grow: 1;
+    color: #39b54a;
+
+    
+}
+
+.oculto {
+    font-size: 16px;
+    
+}
+
+
+
+section h1 {
+    font-size: 24px;
+    text-align: left;
+}
+
+@keyframes rotar{
+    0% {}
+    100% {transform:rotate(-90deg)}
+    
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    position: absolute;
+    
+   }
+
+   main section article:hover i {
+    animation: rotar 2s;
+   }
+
+   
+
+   
+.oculto {
+       display:none;
+   }
+
+
+article:hover  .oculto {
+    display: block;
+}
+
+.intereses {
+    text-align: left;
+}
+
+
+      
+
+
+
+/*---------------------------- ESTILOS FOOTER --------------------------------*/
+
+
+
+footer {
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+footer h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.texto {
+    font-size: 12px;
+}
+
+footer i {
+    color: #1259c3;
+    font-size: 2em;
+    
+}
+
+footer div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*  REGISTRO */
+
+.registro {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: solid black 1px;
+    justify-content: space-around;
+}
+
+.interno {
+    flex-wrap: nowrap;
+}
+
+
+/*-----------------------------------RESPONSIVE---------------------------------------------------*/
+
+
+
+@media (min-width: 361px) {
+
+
+    ul.navbar {
+        display:block;
+    }
+
+    .nav {
+        flex-wrap: nowrap;
+        
+    }
+
+    
+
+    div.nav-buttom {
+        display:none;
+        
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns:  repeat(4,1fr) 1fr repeat(3,1fr);
+        padding-bottom: 3vh;
+        
+    }
+
+    .col {
+        align-self: center;
+        justify-self: center;
+        padding: 10%;
+        font-size: 1rem;
+    }
+
+    .medio {
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+    
+    .registro {
+        width: 30vw;
+    }
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+
+    article {
+        width: 45%;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+
+    article {
+        width: 23%;
+    }
+
+    section h1 {
+        text-align: center;
+    }
+
+}
+
+
