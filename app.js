@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const rutaMain = require('./src/routes/home');
+const rutaRegister = require('./src/routes/register');
+const rutaLogin = require('./src/routes/login');
 
 
 app.use(express.static('public'));
@@ -10,20 +13,10 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 
-app.get('/', function(req,res) {
-    res.sendFile(path.join(__dirname,'views/home.html'));
-});
+app.use('/', rutaMain);
 
-app.get('/register', function(req,res) {
-    res.sendFile(path.join(__dirname,'views/register.html'));
-});
+app.use('/register', rutaRegister);
 
-app.get('/login', function(req,res) {
-    res.sendFile(path.join(__dirname,'views/login.html'));
-});
-
-app.post('/home', function(req,res) {
-    res.sendFile(path.join(__dirname,'views/home.html'));
-});
+app.use('/login', rutaLogin);
 
 
