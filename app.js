@@ -13,6 +13,11 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 
+app.use('*', function(req, res) {
+    res.send("ruta erronea ");
+});
+
+
 app.use('/', rutaMain);
 
 app.use('/register', rutaRegister);
