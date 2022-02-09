@@ -8,12 +8,13 @@ const rutaLogin = require('./src/routes/login');
 
 app.use(express.static('public'));
 
+app.set('view engine','ejs');
+app.set('views',__dirname + '/src/views');
+
+
 app.listen(process.env.PORT || 3000, () => {
     console.log('servidor montado');
 });
-
-
-
 
 
 app.use('/', rutaMain);
