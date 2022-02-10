@@ -1,15 +1,16 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const rutaMain = require('./src/routes/home');
-const rutaRegister = require('./src/routes/register');
-const rutaLogin = require('./src/routes/login');
+const rutaMain = require('./routes/home');
+const rutaRegister = require('./routes/register');
+const rutaLogin = require('./routes/login');
 
 
 app.use(express.static('public'));
 
 app.set('view engine','ejs');
-app.set('views',__dirname + '/src/views');
+
+app.set('views',__dirname + '/views');
 
 
 app.listen(process.env.PORT || 3000, () => {
