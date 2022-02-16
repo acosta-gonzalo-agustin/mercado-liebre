@@ -1,0 +1,113 @@
+[
+ {
+  "id": 1,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 2,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 3,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 4,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 5,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 6,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 7,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 8,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 9,
+  "name": "cafetera",
+  "price": "100",
+  "discount": "90",
+  "category": "",
+  "description": "Cafetera Dolce Gusto Lumio",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "name": "dasdas",
+  "price": "dasd",
+  "discount": "asdad",
+  "description": "asdasd"
+ },
+ {
+  "name": "asdad",
+  "price": "assda",
+  "discount": "dasdas",
+  "description": "dasdad"
+ },
+ {
+  "name": "",
+  "price": "",
+  "discount": "",
+  "description": ""
+ },
+ {
+  "name": "razor",
+  "price": "1500",
+  "discount": "5",
+  "description": "para cortar el pelo"
+ },
+ {
+  "name": "termo stanley",
+  "price": "usd 3000",
+  "discount": "50%",
+  "description": "termo carisimo"
+ }
+]

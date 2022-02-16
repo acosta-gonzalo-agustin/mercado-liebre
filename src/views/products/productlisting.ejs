@@ -1,78 +1,32 @@
-<%- include('./parcials/head')  %> 
+<%- include('../parcials/head')  %> 
 
         <main>
             <h1 class='titulo'>BASADO EN TU ULTIMA BUSQUEDA</h1>
             <section class='ultima-busqueda'>
+                <%for(let i of productos) { %>
                 <article>
                     <div class='caja'>
-                        <img src="img/img-cafetera-moulinex.jpg" alt="Responsive image">
+                        <img src="/img/<%=i.image%>" alt="Responsive image">
                     </div>
                     <div class='caja informacion'>
                         <i class="fas fa-truck"></i>
                         <div class='renglon'>
-                            <p class='precio'>$6770</p>
-                            <P class='descuento'>40% off</P>
+                            <p class='precio'><%=i.price%></p>
+                            <P class='descuento'><%=i.discount%></P>
                         </div>
                         <div>
-                            <p class='oculto'>Cafetera Moulinex</p>
+                            <p class='oculto'><%=i.description%></p>
 
                         </div>
                     </div>
                 </article>
-                <article>
-                    <div class='caja'>
-                        <img src="img/img-macbook-pro-2019.jpg" alt="Responsive image">
-                    </div>
-                    <div class='caja informacion'>
-                        <i class="fas fa-truck"></i>
-                        <div class='renglon'>
-                            <p class='precio'>$6770</p>
-                            <P class='descuento'>40% off</P>
-                        </div>
-                        <div>
-                            <p class='oculto'>Cafetera Moulinex</p>
-
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class='caja'>
-                        <img src="img/img-samsung-galaxy-s10.jpg" alt="Responsive image">
-                    </div>
-                    <div class='caja informacion'>
-                        <i class="fas fa-truck"></i>
-                        <div class='renglon'>
-                            <p class='precio'>$6770</p>
-                            <P class='descuento'>40% off</P>
-                        </div>
-                        <div>
-                            <p class='oculto'>Cafetera Moulinex</p>
-
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class='caja'>
-                        <img src="img/img-tv-samsung-smart.jpg" alt="Responsive image">
-                    </div>
-                    <div class='caja informacion'>
-                        <i class="fas fa-truck"></i>
-                        <div class='renglon'>
-                            <p class='precio'>$6770</p>
-                            <P class='descuento'>40% off</P>
-                        </div>
-                        <div>
-                            <p class='oculto'>Cafetera Moulinex</p>
-
-                        </div>
-                    </div>
-                </article>
+                <%}%> 
             </section>
             <h1 class='titulo'>OFERTAS</h1>
             <section class='oferta'>
                 <article>
                     <div class='caja'>
-                        <img src="img/img-cafetera-moulinex.jpg" alt="Responsive image">
+                        <img src="/img/img-cafetera-moulinex.jpg" alt="Responsive image">
                     </div>
                     <div class='caja informacion'>
                         <i class="fas fa-truck"></i>
@@ -88,7 +42,7 @@
                 </article>
                 <article>
                     <div class='caja'>
-                        <img src="img/img-macbook-pro-2019.jpg" alt="Responsive image">
+                        <img src="/img/img-macbook-pro-2019.jpg" alt="Responsive image">
                     </div>
                     <div class='caja informacion'>
                         <i class="fas fa-truck"></i>
@@ -104,7 +58,7 @@
                 </article>
                 <article>
                     <div class='caja'>
-                        <img src="img/img-samsung-galaxy-s10.jpg" alt="Responsive image">
+                        <img src="/img/img-samsung-galaxy-s10.jpg" alt="Responsive image">
                     </div>
                     <div class='caja informacion'>
                         <i class="fas fa-truck"></i>
@@ -120,7 +74,7 @@
                 </article>
                 <article>
                     <div class='caja'>
-                        <img src="img/img-tv-samsung-smart.jpg" alt="Responsive image">
+                        <img src="/img/img-tv-samsung-smart.jpg" alt="Responsive image">
                     </div>
                     <div class='caja informacion'>
                         <i class="fas fa-truck"></i>
@@ -140,4 +94,4 @@
         <!--------------------------------------------FOOTER------------------------------------------------>
 
         
-<%- include('./parcials/footer')  %> 
+<%- include('../parcials/footer')  %> 

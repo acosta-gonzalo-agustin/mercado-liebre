@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<%- include('./parcials/head.ejs') %>
-<body>
-    <header>
-        <div class ='nav'>
-            <div class="main-head">
-                <a href="/"><img src="img/logo-mercado-liebre.svg" class = 'elemento' alt=""></a>
-            </div>
-            <div class="main-head">
-                <input type="text" class= 'elemento' placeholder="Buscar productos,marcas ">
-            </div>
-            <div class="main-head">
-                <i class="fas fa-hand-holding-usd">Compra en cuotas y sin tarjeta de credito</i>
-            </div>
-        </div>
-            <ul class = 'grid' type="none">
-                <li class = 'col'>Ofertas</li>
-                <li class = 'col'>Tiendas Oficiales</li>
-                <li class = 'col'>Vender</li>
-                <li class = 'col'>Ayuda</li>
-                <li  class = 'medio col'><a href="register">Crea tu cuenta<i class="far fa-address-card"></i></a></li>    
-                <li class = 'col'><a href="login">Ingresar<i class="far fa-address-card"></i></a></li>
-                <li class = 'col'>Mis compras<i class="fas fa-shopping-basket"></i></li>
-            </ul>
-        
-
-        <div class = 'nav-buttom'>
-            <i class="fas fa-bars"></i>
-        </div>     
-       
-    </header>
+<%- include('./parcials/head')  %> 
 
     <main>
 
@@ -57,45 +26,7 @@
     </main>
    
 
-    <!--------------------------------------------FOOTER------------------------------------------------>
+<!--------------------------------------------FOOTER------------------------------------------------>
 
-    <footer>
-        <div>
-            <i class="fas fa-credit-card"></i>
-            <h1>Paga con tarjeta o en efectivo</h1>
-            <p class="texto">
-                Con MercadoLiebreCash tenes cuotas sin interes <br>
-                con tarjeta o efectivo en puntos de <br>
-                pago.¡Y siempre seguro!
-            </p>
-        </div>
-
-        <div>
-            <i class="fas fa-gift"></i>
-            <h1>Envio gratis desde los $2500</h1>
-            <p class = 'texto'>
-                Solo por estar registrad@ en MercadoLiebre <br>
-                tenes envios gratis en miles de productos. Es <br> 
-                un beneficio de MercadoPuntos.
-            </p>
-
-        </div>
-
-        <div>
-            <i class="fas fa-user-shield"></i>
-            <h1>Seguridad de principio a fin</h1>
-            <p class = 'texto'>
-                ¿No te gusta? ¡Devolvelo! En MercadoLiebre <br>
-                no hay nada que no puedas hacer porque <br>
-                estas siempre protegid@.
-            </p>
-
-        </div>
-        <div>
-            <p>Copyright © 1999-2000 MercadoLiebre S.R.L</p>
-        </div>
-
-    </footer>
-    
-</body>
-</html>
+        
+<%- include('./parcials/footer')  %> 

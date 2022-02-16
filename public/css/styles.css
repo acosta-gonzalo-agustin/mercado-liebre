@@ -277,7 +277,7 @@ footer div {
 
     .grid {
         display: grid;
-        grid-template-columns:  repeat(4,1fr) 1fr repeat(3,1fr);
+        grid-template-columns:  repeat(9,1fr);
         padding-bottom: 3vh;
         
     }
@@ -287,11 +287,6 @@ footer div {
         justify-self: center;
         padding: 10%;
         font-size: 1rem;
-    }
-
-    .medio {
-        grid-column-start: 6;
-        grid-column-end: 7;
     }
     
     .registro {
