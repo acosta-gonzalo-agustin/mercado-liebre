@@ -1,6 +1,6 @@
 const controlador = {
     index: function(req,res) {
-        res.render('home');
+        res.send('llego');
     }
 } 
 
