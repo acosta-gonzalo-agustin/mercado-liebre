@@ -32,7 +32,6 @@ app.use(methodOverride('_method'));
 app.listen(process.env.PORT || 3000, () => {
     console.log('servidor montado');
 });
-
 //LLAMANDO A LAS RUTAS
 
 
